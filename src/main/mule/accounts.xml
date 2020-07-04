@@ -155,6 +155,7 @@ output application/json
 ]]]></ee:set-payload>
             </ee:message>
         </ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="cb54e4be-7538-463d-bbd0-29719db7eb23" message="logger invoked"/>
     </flow>
     <flow name="post:\accounts:application\json:accounts-config">
         <ee:transform xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
